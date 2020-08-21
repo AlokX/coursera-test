@@ -12,14 +12,14 @@ body{
 
 h1{
     text-align: center;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
     color: #6e9bee;
     text-shadow: 2px 0px 5px #87b4f7;
 }
 
 .region{
     border: 1px solid transparent;
-    margin-bottom: 7%;
+    margin: 7% 0%;
     border-radius: 7px;
     box-shadow:  0px 3px 15px #87f796;
 
@@ -51,4 +51,29 @@ h1{
 }
 .third{
     background-color: rgb(78, 233, 238);
+}
+
+/* tablet */
+/* @media screen and (max-width: 991px) and (min-width: 768px) {
+    body{padding: 30px;}
+    /* .region{
+        width: 49%;
+        display: inline-block;
+
+    } 
+    .region_container{
+        display: flex;
+        justify-content: space-between;
+    }
+  } */
+/* desktop */
+@media screen and (min-width: 992px){
+    body{padding: 4%}
+    .region_container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .region{
+        width: 30%;
+    }
 }
