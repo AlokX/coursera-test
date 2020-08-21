@@ -18,14 +18,14 @@ h1{
 }
 
 .region{
-    border: 1px solid transparent;
+    border: 1px solid black;
     margin: 7% 0%;
     border-radius: 7px;
     box-shadow:  0px 3px 15px #87f796;
 
 }
 .region .title{
-    /* border: 1px solid rgb(221, 33, 33); */
+    border: 1px solid black;
     float: right;
     width: 30%;
     text-align: center;
