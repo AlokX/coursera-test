@@ -54,18 +54,24 @@ h1{
 }
 
 /* tablet */
-/* @media screen and (max-width: 991px) and (min-width: 768px) {
-    body{padding: 30px;}
-    /* .region{
-        width: 49%;
-        display: inline-block;
-
-    } 
-    .region_container{
-        display: flex;
-        justify-content: space-between;
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    body{padding: 4%}
+    #reg1{
+        float: left;
+        width: 47%;
     }
-  } */
+    #reg2{
+        float: right;
+        width: 47%;
+    }
+    #reg3{
+        clear: both;
+    }
+    /* .region_container{
+        
+        overflow: auto;
+    } */
+  }
 /* desktop */
 @media screen and (min-width: 992px){
     body{padding: 4%}
