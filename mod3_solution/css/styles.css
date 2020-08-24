@@ -1,5 +1,14 @@
-.navbar-brand{
-    margin-right: auto;
-    margin-left: 7px;
-    /* background-color: #0fc9cf; */
+body{
+    font-family: 'comic sans ms', sans-serif;
+    
+}
+.container{
+    background-color: #979595;
+}
+
+/* since bootstrap 4 takes 100% width for container in xs size */
+/* for matching with the mockup */
+@media screen and (max-width: 575px)
+{
+    .container{width: 90%}
 }
